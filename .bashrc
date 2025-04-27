@@ -3,8 +3,7 @@
 # for examples
 alias ihm='cd ~/Documents/fac/projects/ihm2/'
 alias stage='cd ~/Documents/stage/'
-alias l='ll'
-alias n='nvim'
+alias l='ls -la'
 
 # If not running interactively, don't do anything
 case $- in
