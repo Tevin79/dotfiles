@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "npm-install-if-needed": "^1.0.17"
+  }
+}
