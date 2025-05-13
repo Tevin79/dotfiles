@@ -32,8 +32,11 @@ do
 		rm ../.config/hypr && stow --dotfiles hyprland
 		echo "[+] Stow tmux"
 		rm ../.config/tmux && stow --dotfiles tmux
+		echo "[+] Stow nvim"
+		rm ../.config/nvim && stow --dotfiles nvim
 		echo "[+] Setup starship"
 		starship preset gruvbox-rainbow -o ~/.config/starship.toml
+		echo "[+] Setup finished"
 	fi
 done
 if [ $# -eq 0 ]
