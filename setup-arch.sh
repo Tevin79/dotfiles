@@ -9,7 +9,7 @@ do
 	if [ $param = "-i" -o $param = "all" ]
 	then
 		echo "[+] Package installation..."
-		sudo pacman -Syu && sudo pacman -S starship neovim git texlive npm stow fastfetch btop firefox nerd-fonts tmux hyprlock --noconfirm --needed
+		sudo pacman -Syu && sudo pacman -S starship neovim git texlive npm stow fastfetch btop firefox nerd-fonts tmux hyprlock brightnessctl playerctl --noconfirm --needed
 		echo "[+] Packages installation complete"
 	fi
 	if [ $param = "-npm" -o $param = "all" ]
