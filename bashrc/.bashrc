@@ -3,6 +3,7 @@
 # for examples
 alias ihm='cd ~/Documents/fac/projects/ihm2/'
 alias stage='cd ~/Documents/stage/'
+alias ll='ls -la'
 alias l='ls -la'
 
 # If not running interactively, don't do anything
@@ -90,11 +91,6 @@ fi
 
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
-
-# some more ls aliases
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
