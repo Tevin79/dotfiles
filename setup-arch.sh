@@ -25,15 +25,15 @@ do
 		git submodule update --init
 		echo "[+] Submodules updated"
 		echo "[+] Stow bashrc"
-		rm ../.bashrc && stow --dotfiles bashrc
+		rm -rf ../.bashrc && stow --dotfiles bashrc
 		echo "[+] Stow kitty"
-		rm ../.config/kitty && stow --dotfiles kitty
+		rm -rf ../.config/kitty && stow --dotfiles kitty
 		echo "[+] Stow hyprland"
-		rm ../.config/hypr && stow --dotfiles hyprland
+		rm -rf ../.config/hypr && stow --dotfiles hyprland
 		echo "[+] Stow tmux"
-		rm ../.config/tmux && stow --dotfiles tmux
+		rm -rf ../.config/tmux && stow --dotfiles tmux
 		echo "[+] Stow nvim"
-		rm ../.config/nvim && stow --dotfiles nvim
+		rm -rf ../.config/nvim && stow --dotfiles nvim
 		echo "[+] Setup starship"
 		starship preset gruvbox-rainbow -o ~/.config/starship.toml
 		echo "[+] Setup finished"

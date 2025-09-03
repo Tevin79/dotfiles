@@ -5,6 +5,8 @@ alias ihm='cd ~/Documents/fac/projects/ihm2/'
 alias stage='cd ~/Documents/stage/'
 alias ll='ls -la'
 alias l='ls -la'
+alias update='sudo pacman -Suy'
+alias install='sudo pacman -S'
 
 # If not running interactively, don't do anything
 case $- in
